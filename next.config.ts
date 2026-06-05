@@ -7,19 +7,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "www.smart.com.kh",
-      },
-      {
-        protocol: "https",
-        hostname: "crdms.images.consumerreports.org",
-      },
-      {
-        protocol: "https",
-        hostname: "storyblok.cdn.vmo2digital.co.uk",
-      },
-      {
-        protocol: "https",
-        hostname: "khmersamnang.com",
+        hostname: "**",
       },
     ],
   },
