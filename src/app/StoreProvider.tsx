@@ -11,6 +11,8 @@ export default function StoreProvider({
     count : number,
   children: React.ReactNode
 }) {
+  //useRef is important is provice Redux Store create only one time (singleton)
+  //is not creata again at Component Re-render
    const storeRef = useRef<AppStore | null>(null);
   // eslint-disable-next-line react-hooks/refs
   if (!storeRef.current) {

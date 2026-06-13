@@ -24,5 +24,10 @@ export const products = [
     name: "Techno Spark 20C",
     image: "https://khmersamnang.com/wp-content/uploads/2024/07/spark-20c-black.png",
     price: 180,
-  },
+  },{
+    id: 5,
+    name: "Techno Spark 20C",
+    image: "https://khmersamnang.com/wp-content/uploads/2024/07/spark-20c-black.png",
+    price: 180,
+  }
 ];

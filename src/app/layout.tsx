@@ -1,9 +1,10 @@
+"use Client"
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import StoreProvider from "./StoreProvider";
-import { makeStore } from "@/lib/store";
 import CartIcon from "@/components/Navbar/CartIcon";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
